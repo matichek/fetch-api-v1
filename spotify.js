@@ -1,7 +1,8 @@
+// This is a test script for clicking "like this track" for a track in the playlist - needs fixing
+
+// run this in chrome console
 
 function checkIfHeart() {
-
-  let Hearts = document.querySelector
 
 
   console.log("Timestamp: " + Date.now());
@@ -19,11 +20,8 @@ function checkIfHeart() {
       }
     }, 500)
 
-
-
   })
 
 }
-
 
 setInterval(checkIfHeart, 10000); 
